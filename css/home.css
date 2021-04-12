@@ -1,0 +1,139 @@
+html { background: rgb(0, 0, 0); }
+body {
+  font-family: 'Play', sans-serif;
+      /* line-height: 1.3px; */
+      margin-left:7px;
+      margin-right:7px;
+      margin-bottom: 125px
+    }
+
+  .contact{
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+    }
+
+#logo-size {
+        width: 100%;
+        height: 100%;
+      }
+
+h2{font-size:25px;
+  line-height: -0.5px;
+  font-family: 'Play', sans-serif;
+}
+
+p{font-size: 20px;
+ line-height: -0.5px
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* .bg-dark{
+  background: rgb(0, 0, 0);
+} */
+
+@media (min-width: 400px) {
+  /* html { background: green; } */
+  body {
+  font-family: 'Play', sans-serif;
+      /* line-height: 1.3px; */
+      margin-left:7px;
+      margin-bottom: 125px
+    }
+
+  .contact{
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+    }
+
+.logo-size {
+        width: 100%;
+        height: 100%;
+      }
+
+h2{font-size:25px;
+  line-height: -0.5px;
+  font-family: 'Play', sans-serif;
+}
+
+p{font-size: 20px;
+ line-height: -0.5px
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+}
+
+@media (min-width: 600px) {
+  /* html { background: blue; } */
+  body {
+  font-family: 'Play', sans-serif;
+      /* line-height: 1.3px; */
+      margin-left:7px;
+      margin-bottom: 125px
+    }
+
+  .contact{
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+    }
+
+.logo-size {
+        width: 100%;
+        height: 100%;
+      }
+
+h2{font-size:25px;
+  line-height: -0.5px;
+  font-family: 'Play', sans-serif;
+}
+
+p{font-size: 20px;
+ line-height: -0.5px
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+}
+
+@media (min-width: 960px) {
+  /* html { background: grey; } */
+  body {
+  font-family: 'Play', sans-serif;
+      /* line-height: 1.3px; */
+      margin-left:7px;
+      margin-bottom: 125px
+    }
+
+  .contact{
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+    }
+
+.logo-size {
+        width: 100%;
+        height: 100%;
+      }
+
+h2{font-size:25px;
+  line-height: -0.5px;
+  font-family: 'Play', sans-serif;
+}
+
+p{font-size: 20px;
+ line-height: -0.5px
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+}
