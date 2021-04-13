@@ -1,139 +1,274 @@
-html { background: rgb(0, 0, 0); }
-body {
-  font-family: 'Play', sans-serif;
-      /* line-height: 1.3px; */
-      margin-left:7px;
-      margin-right:7px;
-      margin-bottom: 125px
-    }
+#inputEmail {
+  border-radius: 15px;
+  height: 35px;
+  width: 230px;
+}
 
-  .contact{
-      display: flex;
-      flex-direction:row;
-      flex-wrap: wrap;
-    }
+.btn-primary {
+  background-color: rgb(111, 59, 155);
+  border-radius: 15px;
+  border-color: rgb(68, 17, 113);
+  width: 100px;
+  height: 35px;
+  font-family: "Saira", sans-serif;
+}
+.gmail {
+  position: relative;
+  top: 40px;
+  left: 0px;
+}
+
+.container {
+  padding: 0%;
+  margin-right: 0%;
+}
+.withyou {
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+.imm2021 {
+  position: relative;
+  top: 60px;
+}
+
+html {
+  background: rgb(0, 0, 0);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 125px;
+  background-color: black;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 #logo-size {
-        width: 100%;
-        height: 100%;
-      }
+  width: 100%;
+  height: 100%;
+}
 
-h2{font-size:25px;
+h2 {
+  font-size: 25px;
   line-height: -0.5px;
-  font-family: 'Play', sans-serif;
+  font-family: "Saira", sans-serif;
 }
 
-p{font-size: 20px;
- line-height: -0.5px
+p {
+  font-size: 20px;
+  line-height: -0.5px;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-/* .bg-dark{
-  background: rgb(0, 0, 0);
-} */
 
 @media (min-width: 400px) {
-  /* html { background: green; } */
+
+
+  #inputEmail {
+    border-radius: 15px;
+    height: 35px;
+    width: 230px;
+  }
+
+  .btn-primary {
+    background-color: rgb(111, 59, 155);
+    border-radius: 15px;
+    border-color: rgb(68, 17, 113);
+    width: 100px;
+    height: 35px;
+    font-family: "Saira", sans-serif;
+  }
+
+  .gmail {
+    position: relative;
+    top: 40px;
+    left: -50px;
+  }
+  .container {
+    padding: 0%;
+    margin-right: 0%;
+  }
+  .withyou {
+    position: relative;
+    left: 50px;
+    top: 10px;
+  }
+  .imm2021 {
+    position: relative;
+    top: 60px;
+  }
+
   body {
-  font-family: 'Play', sans-serif;
-      /* line-height: 1.3px; */
-      margin-left:7px;
-      margin-bottom: 125px
-    }
+    font-family: "Lato", sans-serif;
+    margin-left: 7px;
+    margin-bottom: 125px;
+    background-color: black;
+  }
 
-  .contact{
-      display: flex;
-      flex-direction:row;
-      flex-wrap: wrap;
-    }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.logo-size {
-        width: 100%;
-        height: 100%;
-      }
+  .logo-size {
+    width: 100%;
+    height: 100%;
+  }
 
-h2{font-size:25px;
-  line-height: -0.5px;
-  font-family: 'Play', sans-serif;
-}
+  h2 {
+    font-size: 25px;
+    line-height: -0.5px;
+    font-family: "Saira", sans-serif;
+  }
 
-p{font-size: 20px;
- line-height: -0.5px
-}
-a{
-  text-decoration: none;
-  color: white;
-}
+  p {
+    font-size: 20px;
+    line-height: -0.5px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @media (min-width: 600px) {
-  /* html { background: blue; } */
+  #inputEmail {
+    border-radius: 15px;
+    height: 35px;
+    width: 230px;
+  }
+
+  .btn-primary {
+    background-color: rgb(111, 59, 155);
+    border-radius: 15px;
+    border-color: rgb(68, 17, 113);
+    width: 100px;
+    height: 35px;
+    font-family: "Saira", sans-serif;
+  }
+  .gmail {
+    position: relative;
+    top: 40px;
+    left: -110px;
+  }
+
+  .withyou {
+    position: relative;
+    left: 50px;
+    top: 0px;
+  }
+  .imm2021 {
+    position: relative;
+    top: 60px;
+  }
+
   body {
-  font-family: 'Play', sans-serif;
-      /* line-height: 1.3px; */
-      margin-left:7px;
-      margin-bottom: 125px
-    }
+    font-family: "Lato", sans-serif;
 
-  .contact{
-      display: flex;
-      flex-direction:row;
-      flex-wrap: wrap;
-    }
+    margin-left: 7px;
+    margin-bottom: 125px;
+    background-color: black;
+  }
 
-.logo-size {
-        width: 100%;
-        height: 100%;
-      }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-h2{font-size:25px;
-  line-height: -0.5px;
-  font-family: 'Play', sans-serif;
-}
+  .logo-size {
+    width: 100%;
+    height: 100%;
+  }
 
-p{font-size: 20px;
- line-height: -0.5px
-}
-a{
-  text-decoration: none;
-  color: white;
-}
+  h2 {
+    font-size: 25px;
+    line-height: -0.5px;
+    font-family: "Saira", sans-serif;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: -0.5px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @media (min-width: 960px) {
-  /* html { background: grey; } */
+  .btn-primary {
+    background-color: rgb(111, 59, 155);
+    border-radius: 15px;
+    border-color: rgb(68, 17, 113);
+    width: 100px;
+    height: 35px;
+    font-family: "Saira", sans-serif;
+  }
+
+  .gmail {
+    position: relative;
+    top: 40px;
+    left: 0px;
+  }
+
+  .withyou {
+    position: relative;
+    left: 50px;
+    top: 120px;
+  }
+  .imm2021 {
+    position: relative;
+    top: 60px;
+  }
+
   body {
-  font-family: 'Play', sans-serif;
-      /* line-height: 1.3px; */
-      margin-left:7px;
-      margin-bottom: 125px
-    }
+    font-family: "Lato", sans-serif;
+    margin-left: 7px;
+    margin-bottom: 125px;
+    background-color: black;
+  }
 
-  .contact{
-      display: flex;
-      flex-direction:row;
-      flex-wrap: wrap;
-    }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.logo-size {
-        width: 100%;
-        height: 100%;
-      }
+  .logo-size {
+    width: 100%;
+    height: 100%;
+  }
 
-h2{font-size:25px;
-  line-height: -0.5px;
-  font-family: 'Play', sans-serif;
-}
+  h2 {
+    font-size: 25px;
+    line-height: -2.5px;
+    font-family: "Saira", sans-serif;
+  }
 
-p{font-size: 20px;
- line-height: -0.5px
-}
-a{
-  text-decoration: none;
-  color: white;
-}
+  p {
+    font-size: 20px;
+    line-height: -0.5px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .container2 {
+    position: relative;
+    left: 140px;
+  }
 }
