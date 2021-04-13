@@ -18,10 +18,6 @@
   left: 0px;
 }
 
-.container {
-  padding: 0%;
-  margin-right: 0%;
-}
 .withyou {
   position: relative;
   left: 50px;
@@ -32,9 +28,9 @@
   top: 60px;
 }
 
-html {
+/* html {
   background: rgb(0, 0, 0);
-}
+} */
 
 body {
   font-family: "Lato", sans-serif;
@@ -70,6 +66,12 @@ a {
   text-decoration: none;
   color: white;
 }
+.container2 {
+  position: relative;
+  margin-left: 5%;
+  padding: 0%;
+  margin-right: 0%;
+}
 
 
 @media (min-width: 400px) {
@@ -95,10 +97,7 @@ a {
     top: 40px;
     left: -50px;
   }
-  .container {
-    padding: 0%;
-    margin-right: 0%;
-  }
+
   .withyou {
     position: relative;
     left: 50px;
@@ -141,6 +140,12 @@ a {
     text-decoration: none;
     color: white;
   }
+  .container2 {
+    position: relative;
+    margin-left: 5%;
+    width: 110%;
+    
+  }
 }
 
 @media (min-width: 600px) {
@@ -167,7 +172,7 @@ a {
   .withyou {
     position: relative;
     left: 50px;
-    top: 0px;
+    top: 10px;
   }
   .imm2021 {
     position: relative;
@@ -207,6 +212,11 @@ a {
     text-decoration: none;
     color: white;
   }
+  .container2 {
+    position: relative;
+    width:90%
+    
+  }
 }
 
 @media (min-width: 960px) {
@@ -222,7 +232,7 @@ a {
   .gmail {
     position: relative;
     top: 40px;
-    left: 0px;
+    left: -10px;
   }
 
   .withyou {
@@ -269,6 +279,11 @@ a {
   }
   .container2 {
     position: relative;
-    left: 140px;
+    left: 50px;
+    padding: 0%;
+    margin-right: 0%;
   }
+  #full{
+    z-index: -1;
+  }  
 }
