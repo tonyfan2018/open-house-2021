@@ -12,20 +12,6 @@ frame.on("ready", () => {
     const stageW = frame.width - 100;
     const stageH = frame.height
 
-<<<<<<< HEAD
-    var posY = series(-100, -100, 0, 0, 100, 100);
-    var posH = series(CENTER,CENTER, LEFT,LEFT, RIGHT,RIGHT);
-    var posV = series(TOP,TOP, CENTER,CENTER, BOTTOM, BOTTOM );
-    var movs = series(250, 120, -200);
-    var rots = series(30, 270, -50);
-
-    loop(3, (i) => {
-        const bigCircle_i = new Circle(150,new GradientColor(["rgba(251,175,150,.3)","rgba(122,78,198,.3)"],[0,1], -150,0, 0,150))
-            .pos(0,posY(),posH(),posV());
-        const smallCircle_i = new Circle(50,new GradientColor(["rgba(122,78,198,.5)","rgba(122,78,198,.5)"],[0,1], -30,0, 0, 30))
-            .pos(0,posY(),posH(),posV())
-            .mov(-30,movs())
-=======
     var r1;
     var r2;
     if(stageW < 1200 && stageW > 700){
@@ -52,7 +38,6 @@ frame.on("ready", () => {
         const smallCircle_i = new Circle(r2,new GradientColor(["rgba(122,78,198,.5)","rgba(122,78,198,.5)"],[0,1], -30,0, 0, 30))
             .pos(posX(),posY(),posH(),posV())
             .mov(-20,movs())
->>>>>>> 9e450bc8bd3a044a9928c4756a84f54663099ce3
             .rot(rots());
     })
 
