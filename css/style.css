@@ -1,0 +1,150 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+.test01 {
+  border: 1px solid red;
+}
+h1 {
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(189, 189, 189);
+}
+a:hover {
+  color: rgb(255, 112, 200);
+}
+a:active {
+  color: rgb(255, 49, 203);
+}
+/* -------home page------- */
+.bodybox--zindex {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  /* margin: 0 !important;
+    padding: 0 !important; */
+  z-index: 1;
+}
+.mainbox--size {
+  position: relative;
+  width: 80%;
+  height: auto;
+}
+.contentbox--position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.formbox--size {
+  position: relative;
+  width: 70%;
+  height: 100%;
+}
+.test02 {
+  border-radius: 15px;
+  width: 100%;
+  height: 65px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+.footerbox--position {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+.btn--setting {
+  background-color: rgb(111, 59, 155);
+  border-radius: 15px;
+  color: white;
+  font-size: 1.2rem;
+  width: 150px;
+  height: 46px;
+}
+.imm2021--size {
+  padding-left: 1%;
+  width: 170px;
+}
+
+@media screen and (max-width: 1092px) {
+  .contentbox--position {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+  }
+  .formbox--size {
+    position: relative;
+    width: 75%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .formbox--size {
+    position: relative;
+    width: 82%;
+    height: 100%;
+  }
+  .btn--setting {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .formbox--size {
+    position: relative;
+    width: 90%;
+    height: 100%;
+  }
+  .btn--setting {
+    width: 120px;
+  }
+  .comingSoon--size {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 452px) {
+  .formbox--size {
+    position: relative;
+    width: 90%;
+    height: 100%;
+  }
+  .btn--setting {
+    width: 102px;
+  }
+  .comingSoon--size {
+    width: 250px;
+  }
+}
