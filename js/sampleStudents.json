@@ -1,27 +1,18 @@
 {
-   "ali" : "Humayun (Ali) Ahmed",
-   "amnon" : "Amnon Skladman",
-   "ben" : "Ben Leger",
-   "chibuzo" : "Chibuzo Uguru",
-   "christy" : "Sitong Wang",
-   "daisy" : "Daisy Shen",
-   "elaine" : "Elaine Tran",
-   "gustavo" : "Gustavo Costa",
-   "julien" : "Julien LaPointe",
-   "laura" : "Laura Warr",
-   "lauren" : "Lauren Harvey",
-   "linus" : "Linus Wang",
-   "lulu" : "Lulu Kang",
-   "madzia" : "Madzia McCutcheon",
-   "meagan" : "Meagan Peat",
-   "mengsi" : "Mengsi Gong",
-   "natalia" : "Natalia Camarena",
-   "natasha" : "Natasha Sidi",
-   "nick" : "Nico Abais",
-   "nicole" : "Nicole Yu",
-   "paul" : "Paul Spry",
-   "priyanka" : "Priyanka Panjwani",
-   "rachel" : "Rachel Han",
-   "vladan" : "Vladan Mutabdzija",
-   "ziqin" : "Ziqin Gao",
+   "students":[
+      {
+         "emailAddress":"lenalee.9520@gmail.com",
+         "name":"Alana Tester",
+         "bio":"Hi there! I am some tester information modelling the data for the dev team! Bounjour! Obrigado, merci :D  trying to fit 150 characters for max count!!",
+         "portfolioURL":"http://sheridanimm.com/",
+         "image":"https://drive.google.com/open?id=1haVDCSEQTmetbWy0PE5mqekM0f5Nb4UA"
+      },
+      {
+         "emailAddress":"lenalee.9520@gmail.com",
+         "name":"Alana Tester",
+         "bio":"Hi there! I am some tester information modelling the data for the dev team! Bounjour! Obrigado, merci :D  trying to fit 150 characters for max count!!",
+         "portfolioURL":"http://sheridanimm.com/",
+         "image":"https://drive.google.com/open?id=1haVDCSEQTmetbWy0PE5mqekM0f5Nb4UA"
+      }
+   ]
 }
