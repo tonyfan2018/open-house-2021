@@ -2,7 +2,10 @@ var frame = new Frame({
     scaling: "full",
     captureMouse: true,
     rollover: true,
-    allowDefault: true
+    allowDefault: true,
+    assets:["loop_1.mp3", "loop_2.mp3", "loop_3.mp3", "loop_4.mp3", "music.mp3", "modem.mp3"],
+    path:"assets/",
+    progress: new ProgressBar({foregroundColor:"#9966bb", backgroundColor:"#ffffff", borderWidth:"0", barType:"circle"})
 });
 
 frame.on("ready", () => {
@@ -11,7 +14,13 @@ frame.on("ready", () => {
     const stage = frame.stage;
     const stageW = frame.width - 100;
     const stageH = frame.height
-
+    let modem = asset("modem.mp3").play({volume:2});
+    let loop1 = asset("loop_1.mp3").play({volume:2,loop:true});
+    let loop2 = asset("loop_2.mp3").play({volume:0.1,loop:true});
+    let loop3 = asset("loop_3.mp3").play({volume:0.1,loop:true});
+    let loop4 = asset("loop_4.mp3").play({volume:2,loop:true});
+    let music = asset("music.mp3").play({volume:2,loop:true});
+    
     var r1;
     var r2;
     if(stageW < 1200 && stageW > 700){
