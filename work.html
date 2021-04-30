@@ -82,8 +82,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./css/carousel.css">
 
 
     <script src="carousel.js"></script>
@@ -107,14 +111,23 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="./images/word-card.png" alt="First slide">
+                    <div class="carousel-item col-md-4 active">
+                        <div class="d-block w-30 projectBox">
+                            <div class="projectThumbnail" style="background-image: url(./images/greybox.png); "  > </div>
+                            <h2 class="projectTitle"> Project Title</h2>
+                            <p class="projectNames"> Student Name, Student Name, Student Name</p>
+                            <p class="projectDetails"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                            <a href="#" class="projectLink"> View Project</a>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="./images/word-card.png" alt="Second slide">
+                    <div class="carousel-item col-md-4">
+                        <img class="d-block w-30" src="./images/word-card.png" alt="Second slide">
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="./images/imm2021.png" alt="Third slide">
+                    <div class="carousel-item col-md-4">
+                        <img class="d-block w-30" src="./images/word-card.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item col-md-4">
+                        <img class="d-block w-30" src="./images/word-card.png" alt="Fourth slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
