@@ -38,12 +38,22 @@ a:visited {
   text-decoration: none;
   color: rgb(189, 189, 189);
 }
+
+#stop, .smuted{
+  color: rgb(111, 59, 155);
+}
 a:hover {
+  color: rgb(255, 112, 200);
+}
+.smuted:hover, #stop:hover{
   color: rgb(255, 112, 200);
 }
 a:active {
   color: rgb(255, 49, 203);
 }
+
+
+
 /* -------home page------- */
 .bodybox--zindex {
   position: relative;

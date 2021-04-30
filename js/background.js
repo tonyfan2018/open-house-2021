@@ -13,14 +13,103 @@ frame.on("ready", () => {
 
     const stage = frame.stage;
     const stageW = frame.width - 100;
-    const stageH = frame.height
+    const stageH = frame.height;
+
     let modem = asset("modem.mp3").play({volume:2});
     let loop1 = asset("loop_1.mp3").play({volume:2,loop:true});
     let loop2 = asset("loop_2.mp3").play({volume:0.1,loop:true});
     let loop3 = asset("loop_3.mp3").play({volume:0.1,loop:true});
     let loop4 = asset("loop_4.mp3").play({volume:2,loop:true});
     let music = asset("music.mp3").play({volume:2,loop:true});
+
+
+     var sinteraction = true;
+
+
+    zid("resume").addEventListener("click", function(onoff){
+        // ismuted = !ismuted;
+
+        if (sinteraction){
+            // loop1.muted = false;
+            // loop2.muted = false;
+            // loop3.muted = false;
+            // loop4.muted = false;
+            // music.muted = false;
+
+            animate(loop1, {volume:2}, 3000);
+            animate(loop2, {volume:2}, 3000);
+            animate(loop3, {volume:0.1}, 3000);
+            animate(loop4, {volume:0.1}, 3000);
+            animate(music, {volume:2}, 3000);         
+
+
+        } 
+        // else 
+        
+        // if (ismuted){
+        //     // loop1.muted = true;
+        //     // loop2.muted = true;
+        //     // loop3.muted = true;
+        //     // loop4.muted = true;
+        //     // music.muted = true;
+
+        //     animate(loop1, {volume:0}, 3000);
+        //     animate(loop2, {volume:0}, 3000);
+        //     animate(loop3, {volume:0}, 3000);
+        //     animate(loop4, {volume:0}, 3000);
+        //     animate(music, {volume:0}, 3000);  
+
+        // }
+        //  modem.muted = true;
+        //  zog(modem.muted);
+         
+    });
+
+    // zog(zid("stop"));
+    // var ismuted2 = true;
+
+    zid("stop").addEventListener("click", function(onoff2){
+        // ismuted2 = !ismuted2;
+
+        // if (!ismuted){
+        //     // loop1.muted = false;
+        //     // loop2.muted = false;
+        //     // loop3.muted = false;
+        //     // loop4.muted = false;
+        //     // music.muted = false;
+
+        //     animate(loop1, {volume:2}, 3000);
+        //     animate(loop2, {volume:2}, 3000);
+        //     animate(loop3, {volume:0.1}, 3000);
+        //     animate(loop4, {volume:0.1}, 3000);
+        //     animate(music, {volume:2}, 3000);         
+
+
+        // } 
+        // else 
+        
+        if (sinteraction){
+            // loop1.muted = true;
+            // loop2.muted = true;
+            // loop3.muted = true;
+            // loop4.muted = true;
+            // music.muted = true;
+
+            animate(loop1, {volume:0}, 3000);
+            animate(loop2, {volume:0}, 3000);
+            animate(loop3, {volume:0}, 3000);
+            animate(loop4, {volume:0}, 3000);
+            animate(music, {volume:0}, 3000);  
+
+        }
+        //  modem.muted = true;
+        //  zog(modem.muted);
+         
+    });
+
+    // zog(zid("stop"));
     
+
     var r1;
     var r2;
     if(stageW < 1200 && stageW > 700){
@@ -91,6 +180,6 @@ frame.on("ready", () => {
 
 }); // end of ready
 
-frame.canvas.style.position = "absolute";
-frame.canvas.style.zIndex = -10;
+// frame.canvas.style.position = "absolute";
+// frame.canvas.style.zIndex = -10;
 // frame.canvas.style.pointerEvents = "none";
