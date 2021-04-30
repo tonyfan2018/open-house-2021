@@ -1,0 +1,82 @@
+[
+  {
+    "Timestamp": "2021-04-27T04:33:44.935Z",
+    "emailAddress": "cassieyin0814@gmail.com",
+    "projectName": "Weather Stories",
+    "projectMembers": "Victoria Sheng You, Fiona Wing Sum Ho, Qianwen Yin",
+    "projectBlurb": "Weather Stories is a responsive single-page web application that displays a particular movie clips with Ghibli movie information based on the current weather of a user's input location.",
+    "projectThumbnail": "./images/thumbnails/WeatherStories.jpg",
+    "projectURL": "https://weatherstories.herokuapp.com/",
+    "agreement": "Yes"
+  },
+  {
+    "Timestamp": "2021-04-28T17:36:53.863Z",
+    "emailAddress": "jasonn.doo@gmail.com",
+    "projectName": "Gravity Beach",
+    "projectMembers": "Jason Do, Pratik Mankame, Santiago Moffat",
+    "projectBlurb": "Gravity Beach is an interactive voice-activated game made with ZIMjs. Gravity Beach combines user voice/sound controls & physics to create a fun, engaging and interactive game.",
+    "projectThumbnail": "./images/thumbnails/gravityBeach.png",
+    "projectURL": "https://gravitybeach.ca/",
+    "agreement": "Yes"
+  },
+  {
+    "Timestamp": "2021-04-28T21:10:06.653Z",
+    "emailAddress": "wanyuk@sheridancollege.ca",
+    "projectName": "ZOFFICE",
+    "projectMembers": "Cora Wan, Disha Shah, Fiona Wing Sum Ho, Victoria Sheng You",
+    "projectBlurb": "Powered by MERN, face recognition & Socket.IO, ZOFFICE gamifies virtual office's interface through augmented reality, where you can feel your team's presence and warmth, just as in a physical office!",
+    "projectThumbnail": "./images/thumbnails/ZOFFICE.jpg",
+    "projectURL": "https://www.corawan.com/ZOFFICE",
+    "agreement": "Yes"
+  },
+  {
+    "Timestamp": "2021-04-29T01:24:02.039Z",
+    "emailAddress": "youshe@sheridancollege.ca",
+    "projectName": "Zimnastics",
+    "projectMembers": "Cora Wan, Disha Shah, Victoria Sheng You",
+    "projectBlurb": "Built with ZIM physics, Zimnastics challenges players to battle with gravity like a real rhythmic gymnast. Make perfect 10 and win a trip to our magical YayoiKusamaXZimnastics 3D museum!",
+    "projectThumbnail": "./images/thumbnails/Zimnastics.jpg",
+    "projectURL": "http://www.osmanthusgroup.com/Zimnastics/",
+    "agreement": "Yes"
+  },
+  {
+    "Timestamp": "2021-04-29T17:15:11.370Z",
+    "emailAddress": "marketing4hbh@gmail.com",
+    "projectName": "The ACME Rube Goldberg Machine",
+    "projectMembers": "Rigun K. Gunavardhanan, Sameen Fatima, Val Gray",
+    "projectBlurb": "Rube Goldberg machine based physics Game",
+    "projectThumbnail": "./images/thumbnails/acmeRubeGoldberg.png",
+    "projectURL": "https://fatisame.dev.fast.sheridanc.on.ca/sem%202/ruby/The%20Rube%20Goldberg%20Machine.html",
+    "agreement": "Yes"
+  },
+  {
+    "Timestamp": "2021-04-29T21:10:31.206Z",
+    "emailAddress": "create.jsxn@gmail.com",
+    "projectName": "suum",
+    "projectMembers": "Alana D. Lee, Jason Do, Shin-you Hou (You-you), Seyitan Oke",
+    "projectBlurb": "suum is an application that allows users to create and track personal goals/habits. suum motivates, supports and encourages users to complete their habits to better their mental health & well-being.",
+    "projectThumbnail": "./images/thumbnails/suum.jpg",
+    "projectURL": "https://suum.herokuapp.com/",
+    "agreement": "Yes"
+  },
+  {
+    "Timestamp": "2021-04-30T02:12:01.698Z",
+    "emailAddress": "liuchenchi0808@gmail.com",
+    "projectName": "Hireme Website",
+    "projectMembers": "Tony Fan, ZhangWangyi Yang, Kaiwen Yang, Chenchi Liu",
+    "projectBlurb": "Hireme is a part-time platform for students majoring in design.",
+    "projectThumbnail": "./images/thumbnails/hireMe.png",
+    "projectURL": "https://liuchenc.dev.fast.sheridanc.on.ca/lcc-portfolio/portfolioDetail.php?portfolioId=5",
+    "agreement": "Yes"
+  },
+  {
+    "Timestamp": "2021-04-30T03:09:11.308Z",
+    "emailAddress": "jessiejessielu@gmail.com",
+    "projectName": "Book'd® - build your own library!",
+    "projectMembers": "Amy Szczepanowski, Jessie Fraser, Jessie Lu",
+    "projectBlurb": "Book'd is a niche application that provides avid readers daily recommendations that are catered to their specified likes and interests.",
+    "projectThumbnail": "./images/thumbnails/bookd.jpg",
+    "projectURL": "https://bookdapi.herokuapp.com/",
+    "agreement": "Yes"
+  }
+]

@@ -1,4 +1,4 @@
-.carousel-inner .carousel-item-right.active, .carousel-inner .carousel-item-next {
+/* .carousel-inner .carousel-item-right.active, .carousel-inner .carousel-item-next {
     transform: translateX(33.33%);
 }
 
@@ -8,13 +8,13 @@
 
 .carousel-inner .carousel-item-right, .carousel-inner .carousel-item-left {
     transform: translateX(0);
-}
+} */
 
 
 
 .projectBox{
     width: 375px;
-    height: 566px;
+    height: 600px;
     background: linear-gradient(23.3deg, #F6AB98 0%, #E49E9F 27.97%, #8B5CC0 167.85%);
 }
 
