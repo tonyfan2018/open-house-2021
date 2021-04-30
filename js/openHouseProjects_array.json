@@ -78,5 +78,15 @@
     "projectThumbnail": "./images/thumbnails/bookd.jpg",
     "projectURL": "https://bookdapi.herokuapp.com/",
     "agreement": "Yes"
+  },
+  {
+    "Timestamp": "2021-04-30T17:52:57.379Z",
+    "emailAddress": "mankamep@sheridancollege.ca",
+    "projectName": "Salt Dispenser",
+    "projectMembers": "Pratik Mankame, Rigun K. Gunavardhanan",
+    "projectBlurb": "Automating a kitchen dispenser to improve user-experience, by means of an Arduino with a digital interface",
+    "projectThumbnail": "./images/thumbnails/saltDispenser.png",
+    "projectURL": "http://pratikmankame.com/salt_dispencer.html",
+    "agreement": "Yes"
   }
 ]
