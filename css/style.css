@@ -11,24 +11,57 @@ body {
   width: 100%;
   height: auto;
   margin: 0 !important;
-  padding: 0;
+  padding: 0 !important;
   color: white;
   background-color: black;
+  z-index: 1;
 }
 .test01 {
   border: 1px solid red;
 }
 h1 {
-  font-size: 2.2rem;
-  line-height: 2.5rem;
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+  font-size: 7.5rem;
+  line-height: 8rem;
 }
 h2 {
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 6.1rem;
+}
+h3 {
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+}
+h4 {
+  font-family: 'Saira', sans-serif;
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.8rem;
 }
-p {
-  font-size: 1.2rem;
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.1rem;
+  line-height: 2.4rem;
+}
+h6 {
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+  font-size: 3.8rem;
+  line-height: 3.4rem;
+}
+.footerh4--size {
+  font-size: 1.3rem;
   line-height: 1.5rem;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
 }
 a:link {
   text-decoration: none;
@@ -39,18 +72,34 @@ a:visited {
   color: rgb(189, 189, 189);
 }
 a:hover {
-  color: rgb(255, 112, 200);
+  color: #f2a89a;
 }
 a:active {
-  color: rgb(255, 49, 203);
+  color: #f2a89a;
 }
-/* -------home page------- */
+
+/* ------- home page ------- */
+
+.txt--color {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(246, 171, 152, 1),
+    rgba(139, 92, 192, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.toggler--size {
+  font-size: 1.8rem;
+}
 .bodybox--zindex {
   position: relative;
   width: 90%;
   height: 100%;
-  /* margin: 0 !important;
-    padding: 0 !important; */
   z-index: 1;
 }
 .mainbox--size {
@@ -58,25 +107,11 @@ a:active {
   width: 80%;
   height: auto;
 }
-.contentbox--position {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+.header--padding {
+  padding: 25px;
 }
-.formbox--size {
-  position: relative;
-  width: 70%;
-  height: 100%;
-}
-.test02 {
-  border-radius: 15px;
-  width: 100%;
-  height: 65px;
-  padding: 20px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 1.2rem;
+.svg--width {
+  max-width: 351px;
 }
 .footerbox--position {
   position: relative;
@@ -97,54 +132,301 @@ a:active {
   padding-left: 1%;
   width: 170px;
 }
-
-@media screen and (max-width: 1092px) {
-  .contentbox--position {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: space-between;
-  }
-  .formbox--size {
+.footer--width {
+  position: relative;
+  width: 90%;
+  height: auto;
+}
+.footerContent--position {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.footerImm--position {
+  position: relative;
+  width: 46 px;
+  height: 218 px;
+  margin: 4px 10px 0px 5px;
+}
+.rightWords--position {
+  flex-basis: 120px;
+  flex-grow: 3;
+  width: auto;
+  height: 218 px;
+}
+.social--position {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-top: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.socialIcon--position {
+  flex-basis: 40px;
+  margin: 5px;
+  padding-right: 20px;
+}
+.content--align {
+  text-align: right;
+}
+.content--height {
+  height: 218px;
+  padding-top: 50px;
+}
+.arrowUp {
+  display: inline-block;
+  margin-top: 50px;
+  width: 30px;
+  height: 30px;
+  border-top: 10px solid white;
+  border-right: 10px solid white;
+  transform: rotate(-45deg);
+  vertical-align: text-bottom;
+}
+.goBack--position {
+  display: inline-block;
+}
+.copyright--size {
+  font-size: 1.3rem;
+  line-height: 42px;
+}
+@media screen and (max-width: 1200px) {
+  .mainbox--size {
     position: relative;
-    width: 75%;
+    width: 90%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .bodybox--zindex {
+    position: relative;
+    width: 100%;
     height: 100%;
+    z-index: 1;
   }
 }
 @media screen and (max-width: 768px) {
-  .formbox--size {
-    position: relative;
-    width: 82%;
-    height: 100%;
+  h1 {
+    font-size: 7.2rem;
+    line-height: 7.7rem;
   }
-  .btn--setting {
-    width: 130px;
+  p {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  h5 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .mainbox--size {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .header--padding {
+    padding: 25px 10px;
+  }
+  .svg--width {
+    max-width: 310px;
+  }
+  .imm2021--size {
+    width: 170px;
+  }
+  .footer--width {
+    width: 95%;
+  }
+  .footerImm--position {
+    width: 43 px;
+    margin: 4px 5px 0px 5px;
+  }
+  .embedImm {
+    width: 43px;
+  }
+  .rightWords--position {
+    height: 190 px;
+  }
+  .svgSpace--width {
+    width: 210px;
+    height: auto;
+  }
+  .footerh4--size {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  .footerh6--size {
+    font-size: 3.6rem;
+    line-height: 3.2rem;
   }
 }
-@media screen and (max-width: 576px) {
-  .formbox--size {
-    position: relative;
-    width: 90%;
-    height: 100%;
+@media screen and (max-width: 660px) {
+  h1 {
+    font-size: 7.1rem;
+    line-height: 7.5rem;
   }
-  .btn--setting {
-    width: 120px;
+  p {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
   }
-  .comingSoon--size {
-    width: 280px;
+  h2 {
+    font-size: 5rem;
+    line-height: 5.1rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  h5 {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+  .header--padding {
+    padding: 20px 8px;
+  }
+  .svg--width {
+    max-width: 275px;
+  }
+  .imm2021--size {
+    width: 160px;
+  }
+  .footer--width {
+    width: 100%;
+  }
+  .footerImm--position {
+    width: 40 px;
+    margin: 4px 5px 0px 4px;
+  }
+  .embedImm {
+    width: 40px;
+  }
+  .rightWords--position {
+    height: 150 px;
+  }
+  .svgSpace--width {
+    width: 200px;
+    height: auto;
+  }
+  .footerh4--size {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  .footerh6--size {
+    font-size: 3.4rem;
+    line-height: 3rem;
   }
 }
-@media screen and (max-width: 452px) {
-  .formbox--size {
-    position: relative;
-    width: 90%;
-    height: 100%;
+@media screen and (max-width: 557px) {
+  h2 {
+    font-size: 4rem;
+    line-height: 4.1rem;
   }
-  .btn--setting {
-    width: 102px;
+  h3 {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
   }
-  .comingSoon--size {
-    width: 250px;
+  h4 {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+  h5 {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+  }
+  .header--padding {
+    padding: 20px 5px;
+  }
+  .svg--width {
+    max-width: 255px;
+  }
+  .imm2021--size {
+    width: 150px;
+  }
+  .rightWords--position {
+    height: 124 px;
+  }
+  .svgSpace--width {
+    width: 190px;
+    height: auto;
+  }
+  .footerh4--size {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .footerh6--size {
+    font-size: 3.2rem;
+    line-height: 3rem;
+  }
+}
+@media screen and (max-width: 467px) {
+  h1 {
+    font-size: 6.8rem;
+    line-height: 7.3rem;
+  }
+  p {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+    line-height: 3.3rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+  h5 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  .header--padding {
+    padding: 20px 0px;
+  }
+  .svg--width {
+    max-width: 220px;
+  }
+  .imm2021--size {
+    width: 140px;
+  }
+  .footerImm--position {
+    width: 37 px;
+    margin: 2px 4px 0px 4px;
+  }
+  .embedImm {
+    width: 37px;
+  }
+  .rightWords--position {
+    height: 105 px;
+  }
+  .svgSpace--width {
+    width: 180px;
+    height: auto;
+  }
+  .footerh4--size {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .footerh6--size {
+    font-size: 3rem;
+    line-height: 2.8rem;
   }
 }
