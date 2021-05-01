@@ -2,16 +2,25 @@ var frame = new Frame({
     scaling: "full",
     captureMouse: true,
     rollover: true,
-    allowDefault: true
+    allowDefault: true,
+    assets:["loop_1.mp3", "loop_2.mp3", "loop_3.mp3", "loop_4.mp3", "music.mp3", "modem.mp3"],
+    path:"assets/",
+    progress: new ProgressBar({foregroundColor:"#9966bb", backgroundColor:"#ffffff", borderWidth:"0", barType:"circle"})
 });
 
 frame.on("ready", () => {
     zog("ready from ZIM Frame");
 
     const stage = frame.stage;
-    const stageW = frame.width - 100;
-    const stageH = frame.height
-
+    const stageW = (frame.width - 100);
+    const stageH = (frame.height - 100);
+    let modem = asset("modem.mp3").play({volume:2});
+    let loop1 = asset("loop_1.mp3").play({volume:2,loop:true});
+    let loop2 = asset("loop_2.mp3").play({volume:0.1,loop:true});
+    let loop3 = asset("loop_3.mp3").play({volume:0.1,loop:true});
+    let loop4 = asset("loop_4.mp3").play({volume:2,loop:true});
+    let music = asset("music.mp3").play({volume:2,loop:true});
+    
     var r1;
     var r2;
     if(stageW < 1200 && stageW > 700){
@@ -68,8 +77,8 @@ frame.on("ready", () => {
             sinkForce: 6, // force towards sink
             force: 1, // initial force
             angle: -90, // start all particles pointing up
-            life: 4000, // last over 4 seconds
-            decayTime: 2000 // fade out over the last 2 seconds
+            life: 4, // last over 4 seconds
+            decayTime: 2 // fade out over the last 2 seconds
         })
         .center()
         .alp(0.1)
@@ -83,5 +92,6 @@ frame.on("ready", () => {
 }); // end of ready
 
 frame.canvas.style.position = "absolute";
-frame.canvas.style.zIndex = -10;
+frame.canvas.style.zIndex = "-10";
+frame.canvas.style.margin = "0px";
 // frame.canvas.style.pointerEvents = "none";

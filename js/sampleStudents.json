@@ -1,0 +1,18 @@
+{
+   "students":[
+      {
+         "emailAddress":"lenalee.9520@gmail.com",
+         "name":"Alana Tester",
+         "bio":"Hi there! I am some tester information modelling the data for the dev team! Bounjour! Obrigado, merci :D  trying to fit 150 characters for max count!!",
+         "portfolioURL":"http://sheridanimm.com/",
+         "image":"https://drive.google.com/open?id=1haVDCSEQTmetbWy0PE5mqekM0f5Nb4UA"
+      },
+      {
+         "emailAddress":"lenalee.9520@gmail.com",
+         "name":"Alana Tester",
+         "bio":"Hi there! I am some tester information modelling the data for the dev team! Bounjour! Obrigado, merci :D  trying to fit 150 characters for max count!!",
+         "portfolioURL":"http://sheridanimm.com/",
+         "image":"https://drive.google.com/open?id=1haVDCSEQTmetbWy0PE5mqekM0f5Nb4UA"
+      }
+   ]
+}
