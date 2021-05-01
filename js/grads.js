@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
     $.getJSON("./js/openHouseBios_array.json", function(data){
-        console.log(data);
+        //console.log(data);
        
        var studentNum="";
        $.each(data, function (key, value) {
