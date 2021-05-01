@@ -4,7 +4,7 @@ $(document).ready(function(){
  
 
 
-    $.getJSON("./js/openHouseBios_array.json", function(data){
+    $.getJSON("js/openHouseBios_array.json", function(data){
        
        var studentNum="";
        $.each(data, function (key, value) {
