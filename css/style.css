@@ -80,6 +80,7 @@ a:active {
 
 #stop, .smuted{
   color: white;
+  padding-top: 15px;
 }
 .smuted:hover, #stop:hover{
   color: rgb(111, 59, 155);
