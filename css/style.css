@@ -16,7 +16,7 @@ body {
   background-color: black;
   z-index: 1;
 }
-.test01 {
+.test {
   border: 1px solid red;
 }
 h1 {
@@ -34,8 +34,8 @@ h2 {
 h3 {
   font-family: 'Saira', sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
 }
 h4 {
   font-family: 'Saira', sans-serif;
@@ -45,8 +45,8 @@ h4 {
 }
 h5 {
   font-family: 'Lato', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 2.1rem;
+  line-height: 2.4rem;
 }
 h6 {
   font-family: 'Saira', sans-serif;
@@ -60,8 +60,8 @@ h6 {
 }
 p {
   font-family: 'Lato', sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.7rem;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
 }
 a:link {
   text-decoration: none;
@@ -137,6 +137,12 @@ a:active {
   width: 90%;
   height: auto;
 }
+.footerFlexBox--setting {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
 .footerContent--position {
   position: relative;
   width: 100%;
@@ -180,7 +186,7 @@ a:active {
 }
 .arrowUp {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 15px;
   width: 30px;
   height: 30px;
   border-top: 10px solid white;
@@ -216,20 +222,20 @@ a:active {
     line-height: 7.7rem;
   }
   p {
-    font-size: 1.3rem;
-    line-height: 1.7rem;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
   }
   h3 {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
   }
   h4 {
     font-size: 1.5rem;
     line-height: 1.8rem;
   }
   h5 {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 2rem;
+    line-height: 2.3rem;
   }
   .mainbox--size {
     position: relative;
@@ -269,6 +275,26 @@ a:active {
   .footerh6--size {
     font-size: 3.6rem;
     line-height: 3.2rem;
+  }
+  .footerFlexBox--setting {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footerRightBox {
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content--align {
+    text-align: left;
+  }
+  .content--height {
+    height: 80px;
+    padding-top: 5px;
   }
 }
 @media screen and (max-width: 660px) {
@@ -372,6 +398,12 @@ a:active {
     font-size: 3.2rem;
     line-height: 3rem;
   }
+  .arrowUp {
+    width: 24px;
+    height: 24px;
+    border-top: 8px solid white;
+    border-right: 8px solid white;
+  }
 }
 @media screen and (max-width: 467px) {
   h1 {
@@ -380,7 +412,7 @@ a:active {
   }
   p {
     font-size: 1.4rem;
-    line-height: 1.3rem;
+    line-height: 1.9rem;
   }
   h2 {
     font-size: 3.2rem;
@@ -395,8 +427,8 @@ a:active {
     line-height: 1.7rem;
   }
   h5 {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
   }
   .header--padding {
     padding: 20px 0px;
@@ -428,5 +460,20 @@ a:active {
   .footerh6--size {
     font-size: 3rem;
     line-height: 2.8rem;
+  }
+  .arrowUp {
+    width: 20px;
+    height: 20px;
+    border-top: 6px solid white;
+    border-right: 6px solid white;
+  }
+  .goBack--position {
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+  }
+  .copyright--size {
+    font-size: 1rem;
+    line-height: 2.1rem;
   }
 }

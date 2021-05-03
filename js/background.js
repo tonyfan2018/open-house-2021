@@ -53,8 +53,8 @@ frame.on("ready", () => {
     const sink = new Circle(10, pink)
         .pos(0, 200, LEFT, CENTER)
         .alp(0)
-        .wiggle("x", stageW / 2, 200, 500, 1000, 2000)
-        .wiggle("y", stageH / 2, 200, 200, 1000, 2000);
+        .wiggle("x", stageW / 2, 200, 500, 1, 2)
+        .wiggle("y", stageH / 2, 200, 200, 1, 2);
 
     stage.on("stagemousemove", () => {
         sink.stopAnimate();
@@ -88,10 +88,13 @@ frame.on("ready", () => {
         emitter.pauseEmitter(!emitter.emitterPaused, null, true);
     });
 
+    frame.canvas.style.position = "absolute";
+    frame.canvas.style.zIndex = "-10";
+    frame.canvas.style.margin = "0px";
+    frame.canvas.style.pointerEvents = "none";
+    frame.canvas.parentElement.style.overflowX = "hidden";
+
 
 }); // end of ready
 
-frame.canvas.style.position = "absolute";
-frame.canvas.style.zIndex = "-10";
-frame.canvas.style.margin = "0px";
-// frame.canvas.style.pointerEvents = "none";
+
