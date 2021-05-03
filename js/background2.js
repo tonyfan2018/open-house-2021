@@ -14,30 +14,30 @@ frame.on("ready", () => {
     const stage = frame.stage;
     const stageW = (frame.width - 100);
     const stageH = (frame.height - 100);
-    let modem = asset("modem.mp3").play({volume:2});
-    let loop1 = asset("loop_1.mp3").play({volume:2,loop:true});
-    let loop2 = asset("loop_2.mp3").play({volume:0.1,loop:true});
-    let loop3 = asset("loop_3.mp3").play({volume:0.1,loop:true});
-    let loop4 = asset("loop_4.mp3").play({volume:2,loop:true});
-    let music = asset("music.mp3").play({volume:2,loop:true});
+    let loop1 = asset("loop_1.mp3").play({volume:0,loop:true});
+    let loop2 = asset("loop_2.mp3").play({volume:0,loop:true});
+    let loop3 = asset("loop_3.mp3").play({volume:0,loop:true});
+    let loop4 = asset("loop_4.mp3").play({volume:0,loop:true});
+    let music = asset("music.mp3").play({volume:0,loop:true});
 
-    zid("resume").addEventListener("click", function(onoff){
-
-            animate(loop1, {volume:2}, 3);
-            animate(loop2, {volume:2}, 3);
-            animate(loop3, {volume:0.1}, 3);
-            animate(loop4, {volume:0.1}, 3);
-            animate(music, {volume:2}, 3);         
+    zid("stop").addEventListener("click", function(onoff){
+        animate(loop1, {volume:0}, 3);
+        animate(loop2, {volume:0}, 3);
+        animate(loop3, {volume:0}, 3);
+        animate(loop4, {volume:0}, 3);
+        animate(music, {volume:0}, 3); 
+        
     });
 
-    zid("stop").addEventListener("click", function(onoff2){
-
-            animate(loop1, {volume:0}, 3);
-            animate(loop2, {volume:0}, 3);
-            animate(loop3, {volume:0}, 3);
-            animate(loop4, {volume:0}, 3);
-            animate(music, {volume:0}, 3);  
+    zid("resume").addEventListener("click", function(onoff2){
+        animate(loop1, {volume:2}, 3);
+        animate(loop2, {volume:2}, 3);
+        animate(loop3, {volume:0.1}, 3);
+        animate(loop4, {volume:0.1}, 3);
+        animate(music, {volume:2}, 3); 
+ 
     });
+
     
     var r1;
     var r2;

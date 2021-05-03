@@ -78,6 +78,13 @@ a:active {
   color: #f2a89a;
 }
 
+#stop, .smuted{
+  color: white;
+}
+.smuted:hover, #stop:hover{
+  color: rgb(111, 59, 155);
+}
+
 /* ------- home page ------- */
 
 .txt--color {
