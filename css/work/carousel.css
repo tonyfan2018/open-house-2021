@@ -9,10 +9,11 @@ Attribution required
 
 .projectBox{
     width: 100%;
-    min-height: 500px;
+    min-height: 400px;
     height: 500px;
     background: linear-gradient(23.3deg, #F6AB98 0%, #E49E9F 27.97%, #8B5CC0 167.85%);
-    max-height: 600px
+    max-height: 600px;
+    overflow: scroll;
 }
 
 .projectThumbnail{
@@ -29,11 +30,11 @@ Attribution required
     font-size: 23px;
     font-style: normal;
     font-weight: 600;
-    line-height: 47px;
+    line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
     color: black;
-    padding: 15px 25px 0px 25px;
+    padding: 15px 10% 0px 10%;
 }
 
 .projectNames {
@@ -45,7 +46,7 @@ Attribution required
     letter-spacing: 0em;
     text-align: left;
     color: black;
-    padding: 0px 25px 6px 25px;
+    padding: 0px 10% 0px 10%;
 }
 
 .projectDetails {
@@ -56,7 +57,7 @@ Attribution required
     line-height: 19px;
     color: #000000;
 
-    padding: 0px 25px 6px 25px;
+    padding: 0px 10% 0px 10%;
 }
 
 a.projectLink:link  {
@@ -66,7 +67,22 @@ a.projectLink:link  {
     font-size: 20px;
     line-height: 24px;
     color: #7A4FC7;
-    padding: 10px 25px 6px 25px;
+    padding: 10px 10% 6px 10%;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+    .projectTitle {
+        font-family: Saira;
+        font-size: 19px;
+    }
+    
+    .projectDetails {
+        font-size: 13px;
+        padding: 10px 5% 6px 5%;
+        margin-bottom: 0px;
+
+    }
+
 }
 
 
