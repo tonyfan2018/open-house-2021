@@ -1,11 +1,12 @@
 [
   {
     "Timestamp": "2021-04-28T19:39:52.686Z",
-    "emailAddress": "leedahw@sheridancollege.ca",
+    "emailAddress": "alana.d.lee@gmail.com",
     "name": "Alana D. Lee",
     "bio": "Hi there!👋\nI'm a UX | UI Designer with a passion for accessibility on the web! I've been super into learning about microcopy recently!",
     "portfolioURL": "https://www.alanalee.me/",
-    "image": "./images/students/alanaLee.gif"
+    "image": "./images/students/alanaLee.gif",
+    "linkedIn": "https://www.linkedin.com/in/alanadlee/"
   },
   {
     "Timestamp": "2021-04-28T23:23:10.908Z",
@@ -13,7 +14,8 @@
     "name": "Amy Szczepanowski",
     "bio": "Hey there! I'm a passionate 2D Designer and Interactive Illustrator, using my overwhelming enthusiasm to learn and grow as a visual storyteller!",
     "portfolioURL": "https://amellune.com",
-    "image": "./images/students/amySzczepanowski.gif"
+    "image": "./images/students/amySzczepanowski.gif",
+    "linkedIn": "https://www.linkedin.com/in/amy-szczepanowski/"
   },
   {
     "Timestamp": "2021-04-30T01:50:24.222Z",
@@ -21,7 +23,8 @@
     "name": "Chenchi Liu",
     "bio": "I'm a graphic designer & UI/UX designer. I love art, painting, and design.",
     "portfolioURL": "https://liuchenc.dev.fast.sheridanc.on.ca/lcc-portfolio/index.php",
-    "image": "./images/students/chenChiLiu.gif"
+    "image": "./images/students/chenChiLiu.gif",
+    "linkedIn": "https://www.linkedin.com/in/chenchi-liu-52b6231b6/"
   },
   {
     "Timestamp": "2021-04-27T03:14:20.844Z",
@@ -29,7 +32,8 @@
     "name": "Cora Wan",
     "bio": "I am a full stack developer, a UX designer as well as a storyteller, who seeks to create engaging UX through writing out-of-the-box codes.",
     "portfolioURL": "https://www.corawan.com",
-    "image": "./images/students/coraWan.gif"
+    "image": "./images/students/coraWan.gif",
+    "linkedIn": "https://www.linkedin.com/in/yukyiwan/"
   },
   {
     "Timestamp": "2021-04-29T03:01:41.241Z",
@@ -37,7 +41,8 @@
     "name": "Disha Shah",
     "bio": "A UI/UX designer with a limitless vision to create problem solving designs. Amateur front-end developer with industry experience in Graphic Design.",
     "portfolioURL": "https://dishash.com/",
-    "image": "./images/students/dishaShah.gif"
+    "image": "./images/students/dishaShah.gif",
+    "linkedIn": "https://www.linkedin.com/in/disha-shah2095/"
   },
   {
     "Timestamp": "2021-04-30T00:03:06.276Z",
@@ -45,7 +50,8 @@
     "name": "Fiona Wing Sum Ho",
     "bio": "Digital Content Developer and Interaction Designer who delivers solutions, also as a Canadian who grew up with Hello Kitty, anime, manga and Kpop.",
     "portfolioURL": "https://www.fionaho.com",
-    "image": "./images/students/fionaHo.gif"
+    "image": "./images/students/fionaHo.gif",
+    "linkedIn": "https://www.linkedin.com/in/fionawho/"
   },
   {
     "Timestamp": "2021-04-27T17:28:15.433Z",
@@ -53,7 +59,8 @@
     "name": "Jason Do",
     "bio": "Designer of imaginative & curiously creative experiences. Striving to design & create meaningful digital products that are initiative + impactful!",
     "portfolioURL": "https://jasondo.ca/",
-    "image": "./images/students/jasonDo.gif"
+    "image": "./images/students/jasonDo.gif",
+    "linkedIn": "https://www.linkedin.com/in/jsxndo/"
   },
   {
     "Timestamp": "2021-04-28T16:39:44.773Z",
@@ -61,7 +68,8 @@
     "name": "Jessie Fraser",
     "bio": "Who me? Interactive Experience Design; Archive Management Consulting; Theatre & Circus Production.",
     "portfolioURL": "https://www.jessiefraser.ca",
-    "image": "./images/students/jessieFraser.gif"
+    "image": "./images/students/jessieFraser.gif",
+    "linkedIn": "https://www.linkedin.com/in/jessie-fraser/"
   },
   {
     "Timestamp": "2021-04-28T02:52:15.734Z",
@@ -69,7 +77,17 @@
     "name": "Jessie Lu",
     "bio": "A Marketer with full-stack development skills, who's passionate about telling thoughtful story with the combination of design, business and marketing.",
     "portfolioURL": "https://jessielu.herokuapp.com/",
-    "image": "./images/students/jessieLu.gif"
+    "image": "./images/students/jessieLu.gif",
+    "linkedIn": "https://www.linkedin.com/in/jessie-lu-9581992a/"
+  },
+  {
+    "Timestamp": "2021-05-02T17:29:57.959Z",
+    "emailAddress": "kaiwenyang26@gmail.com",
+    "name": "Kaiwen Yang",
+    "bio": "I am a graphic designer and good at UI/UX design. I am also Front End Developer.",
+    "portfolioURL": "http://wp.zzzdo.com/",
+    "image": "./images/students/kaiwenYang.gif",
+    "linkedIn": "https://www.linkedin.com/in/kaiwen-yang-2a10181b8/"
   },
   {
     "Timestamp": "2021-04-30T18:59:41.910Z",
@@ -77,7 +95,8 @@
     "name": "Pratik Mankame",
     "bio": "Hi I am Pratik, A proactive UI/UX designer with 4+ years of proven end to end experience delivering user friendly web and mobile products.",
     "portfolioURL": "http://pratikmankame.com/",
-    "image": "./images/students/pratikMankame.gif"
+    "image": "./images/students/pratikMankame.gif",
+    "linkedIn": "https://www.linkedin.com/in/pratik-mankame-a95087116/"
   },
   {
     "Timestamp": "2021-04-27T03:56:56.152Z",
@@ -85,7 +104,8 @@
     "name": "Qianwen Yin",
     "bio": "I’m a UI/UX designer, homebody, foodie and music lover!",
     "portfolioURL": "https://cassieyin.com/index.html",
-    "image": "./images/students/qianwenYin.gif"
+    "image": "./images/students/qianwenYin.gif",
+    "linkedIn": "https://www.linkedin.com/in/qianwen-yin-1280ab194/"
   },
   {
     "Timestamp": "2021-04-29T01:54:21.093Z",
@@ -93,7 +113,8 @@
     "name": "Rigun K. Gunavardhanan",
     "bio": "A multi-faceted designer having experiences in UI/UX and industrial design, who loves bridging the gap between physical and digital products",
     "portfolioURL": "http://www.rigun.ca/",
-    "image": "./images/students/rigunKG.gif"
+    "image": "./images/students/rigunKG.gif",
+    "linkedIn": "https://www.linkedin.com/in/rigunkg/"
   },
   {
     "Timestamp": "2021-04-30T13:42:25.008Z",
@@ -101,7 +122,8 @@
     "name": "Sameen Fatima",
     "bio": "I am a front end developer based in Toronto, Canada. My passions include graphic design, photography, travel and delving into the old web.",
     "portfolioURL": "http://www.ux.sikaservices.com/",
-    "image": "./images/students/sameenFatima.gif"
+    "image": "./images/students/sameenFatima.gif",
+    "linkedIn": "https://www.linkedin.com/in/sameen-fatima/"
   },
   {
     "Timestamp": "2021-04-26T03:40:51.016Z",
@@ -109,7 +131,8 @@
     "name": "Santiago Moffat",
     "bio": "I am a Digital Audio Designer with more than 10 years of experience. Currently exploring opportunities that will take full advantage of my new skills",
     "portfolioURL": "https://interactive.nosoundnopic.com/",
-    "image": "./images/students/santiagoMoffat.gif"
+    "image": "./images/students/santiagoMoffat.gif",
+    "linkedIn": "https://www.linkedin.com/in/santiago-moffat/"
   },
   {
     "Timestamp": "2021-04-28T21:06:47.091Z",
@@ -117,7 +140,8 @@
     "name": "Seyitan Oke",
     "bio": "I'm a product designer & front-end developer that makes engaging brand experiences. My curiosity is my superpower!",
     "portfolioURL": "https://thisisoke.com",
-    "image": "./images/students/seyitanOke.gif"
+    "image": "./images/students/seyitanOke.gif",
+    "linkedIn": "https://www.linkedin.com/in/seyitan-oke/"
   },
   {
     "Timestamp": "2021-04-29T17:22:41.972Z",
@@ -125,7 +149,8 @@
     "name": "Shin-you Hou  (You-you)",
     "bio": "Shin-you Hou [shin-yo ho]\nnoun\nA person that builds interactive stories with front end code, UI/UX and a copious amount of hot glue and duct tape.",
     "portfolioURL": "https://www.shinyouhou.com",
-    "image": "./images/students/shinYouHou.gif"
+    "image": "./images/students/shinYouHou.gif",
+    "linkedIn": "https://www.linkedin.com/in/shinyouhou/"
   },
   {
     "Timestamp": "2021-04-29T22:06:44.377Z",
@@ -133,7 +158,8 @@
     "name": "Tony Fan",
     "bio": "I am a passionate creator with experience in both web application development and design.",
     "portfolioURL": "https://www.tonyfan.com/",
-    "image": "./images/students/tonyFan.gif"
+    "image": "./images/students/tonyFan.gif",
+    "linkedIn": "https://www.linkedin.com/in/tony-fan-2021/"
   },
   {
     "Timestamp": "2021-04-24T17:25:42.125Z",
@@ -141,7 +167,8 @@
     "name": "Val Gray",
     "bio": "I am a programmer and designer, interested in: wearable neuro tech, where games meet data science, applicable psychology and philosophy.",
     "portfolioURL": "http://Faerport.net",
-    "image": "./images/students/valGray.gif"
+    "image": "./images/students/valGray.gif",
+    "linkedIn": "https://www.linkedin.com/in/valerie-gray/"
   },
   {
     "Timestamp": "2021-04-27T16:59:36.877Z",
@@ -149,7 +176,8 @@
     "name": "Victoria Sheng You",
     "bio": "UX Designer| Creative Director | Experienced Educator | Web App Developer",
     "portfolioURL": "https://victoriashengyou.host",
-    "image": "./images/students/victoriaYou.gif"
+    "image": "./images/students/victoriaYou.gif",
+    "linkedIn": "https://www.linkedin.com/in/victoria-you-8b49171b7/"
   },
   {
     "Timestamp": "2021-04-29T13:49:17.209Z",
@@ -157,7 +185,8 @@
     "name": "Yujia Ji",
     "bio": "Web Designer, Front-end Developer | keen on extreme sports, racing drones",
     "portfolioURL": "http://www.yogaji.site",
-    "image": "./images/students/yujiaJi.gif"
+    "image": "./images/students/yujiaJi.gif",
+    "linkedIn": "https://www.linkedin.com/in/yujia-ji-956b411a5/"
   },
   {
     "Timestamp": "2021-04-27T10:31:53.640Z",
@@ -165,7 +194,8 @@
     "name": "Zhao Lu",
     "bio": "A little coder who likes interesting design.",
     "portfolioURL": "https://zhaolu.dev.fast.sheridanc.on.ca/lubiePortfolio",
-    "image": "./images/students/zhaoLu.gif"
+    "image": "./images/students/zhaoLu.gif",
+    "linkedIn": "https://www.linkedin.com/in/lubie-zhao-2a06841b7/"
   },
   {
     "Timestamp": "2021-04-30T17:10:40.776Z",
@@ -173,14 +203,7 @@
     "name": "Zhouyu (Arthur) Huang",
     "bio": "I am a UI/UX designer studied IMM @ Sheridan College. I am interested in developing user-friendly applications. I love skiing, tennis, and music.",
     "portfolioURL": "https://www.zhouyuhuang.com",
-    "image": "./images/students/arthurHuang.gif"
-  },
-  {
-    "Timestamp": "2021-05-02T17:29:57.959Z",
-    "emailAddress": "kaiwenyang26@gmail.com",
-    "name": "Kaiwen Yang",
-    "bio": "I am a graphic designer and good at UI/UX design. I am also Front End Developer.",
-    "portfolioURL": "http://yz.zzzdo.com/",
-    "image": "./images/students/kaiwenYang.gif"
+    "image": "./images/students/arthurHuang.gif",
+    "linkedIn": "https://www.linkedin.com/in/zhouyu-arthur-huang-7bbbb9133/"
   }
 ]
