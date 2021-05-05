@@ -34,9 +34,9 @@ $(document).ready(function(){
            $bio = $("<p/>", {class:"bio",style:" font-size: 1.1rem;line-height: 1.8rem;",text:value.bio}),
            $circleRow = $("<div/>", {class:"icon-row"}),
 
-           $circleOne = $("<div/>", {class:"circleOne"}),
-           $emailAdress = $("<a/>", {class:"emailAdress", href:`mailto:${value.emailAddress}`}),
-           $envelope = $("<i/>", {class:"fa fa-envelope"}),
+        //    $circleOne = $("<div/>", {class:"circleOne"}),
+        //    $emailAdress = $("<a/>", {class:"emailAdress", href:`mailto:${value.emailAddress}`}),
+        //    $envelope = $("<i/>", {class:"fa fa-envelope"}),
 
            $circleTwo = $("<div/>", {class:"circleTwo"}),
            $linkedIn = $("<a/>", {class:"linkedIn", href:value.linkedIn, target:"_blank"}),
@@ -54,7 +54,7 @@ $(document).ready(function(){
                    $modalContent.append(
                        $modalBody.append($containerFluid.append(
                            $firstRow.append($insideBtn),
-                           $secRow.append($firstCol.append($modalTitle, $modalArticle.append($bio),$circleRow.append($circleOne.append($emailAdress.append($envelope)), $circleTwo.append($linkedIn.append($linkedInIcon))),$insideRow.append($portfolioBtn.append($btnFont))),$secCol.append($img))
+                           $secRow.append($firstCol.append($modalTitle, $modalArticle.append($bio),$circleRow.append($circleTwo.append($linkedIn.append($linkedInIcon))),$insideRow.append($portfolioBtn.append($btnFont))),$secCol.append($img))
                            
                        ))))).appendTo("body");
            
