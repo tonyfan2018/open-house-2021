@@ -108,7 +108,12 @@ a:active {
 
 
 .imm-title{
-  width: 280px;
+  /* width: 280px; */
+  /* text-align: right; */
+}
+
+#student-num{
+  color: white;
 }
 
 .modal-backdrop
