@@ -32,10 +32,15 @@ $(document).ready(function(){
            $modalTitle = $("<h3/>", {class:"modal-title",style:" font-size: 1.6rem;line-height: 1.4rem;", text:value.name}),
            $modalArticle = $("<div/>", {class:"modal-article"}),
            $bio = $("<p/>", {class:"bio",style:" font-size: 1.1rem;line-height: 1.8rem;",text:value.bio}),
-           $circleRow = $("<div/>", {class:"row"}),
-           $modalCircleone = $("<div/>", {class:"modal-circle"}),
-           $modalCircletwo = $("<div/>", {class:"modal-circle"}),
-           $modalCirclethree = $("<div/>", {class:"modal-circle"}),
+           $circleRow = $("<div/>", {class:"icon-row"}),
+
+           $circleOne = $("<div/>", {class:"circleOne"}),
+           $emailAdress = $("<a/>", {class:"emailAdress", href:`mailto:${value.emailAddress}`}),
+           $envelope = $("<i/>", {class:"fa fa-envelope"}),
+
+           $circleTwo = $("<div/>", {class:"circleTwo"}),
+           $linkedIn = $("<a/>", {class:"linkedIn", href:value.linkedIn, target:"_blank"}),
+           $linkedInIcon = $("<i/>", {class:"fab fa-linkedin"}),
 
            $insideRow = $("<div/>", {class:"row row-btn justify-content-start"}),
            $portfolioBtn = $("<a/>", {class:"portfolio-btn", href:value.portfolioURL, target:"_blank"}),
@@ -49,7 +54,7 @@ $(document).ready(function(){
                    $modalContent.append(
                        $modalBody.append($containerFluid.append(
                            $firstRow.append($insideBtn),
-                           $secRow.append($firstCol.append($modalTitle, $modalArticle.append($bio),$circleRow.append($modalCircleone,$modalCircletwo,$modalCirclethree),$insideRow.append($portfolioBtn.append($btnFont))),$secCol.append($img))
+                           $secRow.append($firstCol.append($modalTitle, $modalArticle.append($bio),$circleRow.append($circleOne.append($emailAdress.append($envelope)), $circleTwo.append($linkedIn.append($linkedInIcon))),$insideRow.append($portfolioBtn.append($btnFont))),$secCol.append($img))
                            
                        ))))).appendTo("body");
            

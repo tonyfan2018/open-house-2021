@@ -191,14 +191,47 @@ a:active {
   margin-bottom: 15px;
 }
 
-.modal-circle{
-  background-image: linear-gradient(-90deg, rgba(139, 92, 192),rgba(139, 92, 192),rgba(246, 171, 152));
-  height:30px;
-  width:30px;
-  border-radius: 100%;
-  margin: 0 0 30px 15px;
+.icon-row{
+  display: flex;
+  flex-direction: row;
+}
+.circleOne{
+  margin-bottom: 35px;
+  margin-right: 20px;
 
 }
+
+.fa-envelope{
+  background-color: #f3ec78;
+  background-image: linear-gradient(-90deg, rgba(139, 92, 192),rgba(139, 92, 192),rgba(246, 171, 152));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 25px;;
+  cursor: pointer;
+
+
+}
+
+
+.fa-linkedin{
+  background-color: #f3ec78;
+  background-image: linear-gradient(-90deg, rgba(139, 92, 192),rgba(139, 92, 192),rgba(246, 171, 152));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 25px;
+  cursor: pointer;
+
+
+}
+
 
 .modal-avatar{
   border-color:rgba(139, 92, 192);
